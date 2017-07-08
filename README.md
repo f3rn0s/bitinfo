@@ -22,10 +22,10 @@ Clone the Repository and cd into it
 git clone http://github.com/tealkine/bitinfo.git && cd bitinfo
 ```
 
-Run scanner
+Run bitinfo
 
 ```
-sudo python3 bitinfo.py
+python3 bitinfo.py
 ```
 
 ###TODO:
