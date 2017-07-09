@@ -19,7 +19,7 @@ python3
 Clone the Repository and cd into it
 
 ```
-git clone http://github.com/tealkine/bitinfo.git && cd bitinfo
+git clone http://github.com/f3rn0s/bitinfo.git && cd bitinfo
 ```
 
 Run scanner
@@ -34,7 +34,7 @@ Add commandline arguments
 
 ## Authors
 
-* **Tealkine** - *Project Dev.* - [Tealkine](https://github.com/Tealkine)
+* **F3RN0S** - *Project Dev.* - [F3RN0S](https://github.com/f3rn0s)
 
-See also the list of [contributors](https://github.com/tealkine/bitinfo/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/f3rn0s/bitinfo/contributors) who participated in this project.
 
