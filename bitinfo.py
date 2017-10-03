@@ -9,7 +9,7 @@ addr = input().rstrip()
 
 #Currency Code
 print("Enter Currency: ", end='')
-currencycode = input().rstrip()
+currencycode = input().rstrip().upper()
 
 #Sets up the websites to grab
 r1 = requests.get('https://blockchain.info/en/address/' +
@@ -27,7 +27,7 @@ except:
 try:
     bitconvinfo = r2.json()
     rate = bitconvinfo['bpi'][currencycode]['rate'][2:]
-    balanceconv = round((bitaddrinfo['final_balance'] * 0.00000001) * float(rate), 2)
+    balanceconv = round((bitaddrinfo['final_balance'] * 0.0000001) * float(rate), 2)
 except:
     print("Error obtaining conversion rates...")
     balanceconv = "???"
