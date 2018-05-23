@@ -26,7 +26,7 @@ except:
 #Grabs the exchange rate
 try:
     bitconvinfo = r2.json()
-    rate = bitconvinfo['bpi'][currencycode]['rate'][2:]
+    rate = bitconvinfo['bpi'][currencycode]['rate'].replace(',', '')
     balanceconv = round((bitaddrinfo['final_balance'] * 0.0000001) * float(rate), 2)
 except:
     print("Error obtaining conversion rates...")
