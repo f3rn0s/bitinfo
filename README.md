@@ -12,6 +12,7 @@ Converts to AUD
 
 ```
 python3
+requests
 ```
 
 ### Installing
